@@ -1,0 +1,9 @@
+CREATE TABLE Dependent(
+ESSN CHAR(9) NOT NULL,
+Dependent_Name VARCHAR(15) NOT NULL,
+Sex CHAR,
+BDate DATE,
+Relationship VARCHAR(8),
+CONSTRAINT Dependent_ESSN_DepName_PK PRIMARY KEY(ESSN,Dependent_Name),
+CONSTRAINT Dependent_ESSN_FK FOREIGN KEY(ESSN) REFERENCES
+Employee(SSN));

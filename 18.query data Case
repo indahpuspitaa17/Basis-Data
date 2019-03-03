@@ -1,0 +1,7 @@
+SELECT SSN, FName, Salary,
+  CASE
+  WHEN Salary > 3500000 THEN ’Top’
+  ELSE ’Middle’
+  END AS Level
+FROM Employee
+ORDER BY SSN;

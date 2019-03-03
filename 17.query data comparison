@@ -1,0 +1,2 @@
+SELECT SSN, FName, LName, BDate FROM Employee
+WHERE FName LIKE ’H%’;

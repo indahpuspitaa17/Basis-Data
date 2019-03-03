@@ -1,0 +1,6 @@
+CREATE TABLE Dept_Locations(
+DNum INT NOT NULL,
+DLocation VARCHAR(15) NOT NULL,
+CONSTRAINT DNumber_DLocation_PF PRIMARY KEY(DNum,DLocation),
+CONSTRAINT DLoc_DNum_FK FOREIGN KEY(DNum) REFERENCES
+Department(DNumber));

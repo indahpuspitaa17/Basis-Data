@@ -1,0 +1,15 @@
+SELECT MAX(Salary), MIN(Salary), AVG(Salary) FROM Employee;
+
+SELECT COUNT(SSN) AS Jumlah_Employee_di_BARA FROM Employee WHERE Address = ’BARA’;
+
+SELECT COUNT(DISTINCT PLocation) AS ”distinct lokasi”, COUNT(PLocation) AS ”total lokasi”
+FROM Project;
+
+SELECT Dnum, Min(Salary), MAX(Salary), AVG(Salary) FROM Employee
+GROUP BY DNum
+ORDER BY DNum DESC;
+
+SELECT Address, COUNT(*) FROM Employee
+GROUP BY Address
+HAVING COUNT(*) > 4
+ORDER BY Address;

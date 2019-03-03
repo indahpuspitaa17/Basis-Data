@@ -1,0 +1,4 @@
+INSERT INTO Dept_Locations VALUES(1,'Darmaga');
+INSERT INTO Dept_Locations VALUES(3,'Darmaga');
+INSERT INTO Dept_Locations VALUES(2,'Darmaga');
+INSERT INTO Dept_Locations VALUES(4,'Baranang Siang');

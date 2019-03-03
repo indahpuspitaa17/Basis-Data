@@ -1,0 +1,29 @@
+INSERT INTO Employee VALUES('E001', 'Hakim', null, 'Arifin', '12-Jan-1987','BATENG', 'M', 4000000,
+null, 1);
+INSERT INTO Employee VALUES('E002','Yuni',null,'Arti','15-Feb-1987', 'BARA','F',4000000,null,2);
+INSERT INTO Employee VALUES('E003','Mutia',null,'Aziza','23-Mar-1987',
+'BATENG','F',4000000,null,3);
+INSERT INTO Employee VALUES('E004','Hanif',null,'Affandi','21-Jan-1987',
+'BARA','M',4000000,null,4);
+INSERT INTO Employee VALUES('E005','Vera',null,'Yunita','16-May-1987',
+'BALEBAK','F',3500000,'E001',1);
+INSERT INTO Employee VALUES('E006','Pritasri',null,'Palupiningsih','09-Dec-1987',
+'BADONENG','F',3500000,'E001',1);
+INSERT INTO Employee VALUES('E007','Rifki','Y','Haidar','02-Aug-1987',
+'BATENG','M',3000000,'E001',1);
+INSERT INTO Employee VALUES('E008','Muhammad','A','Rosyidi','22-Jun-1987',
+'PERUMDOS','M',2750000,'E001',1);
+INSERT INTO Employee VALUES('E009','Ferry',null,'Pratama','11-Jul-1987',
+'BARA','M',3000000,'E002',2);
+INSERT INTO Employee VALUES('E010','Andi',null,'Sasmita','15-Feb-1987',
+'BATENG','M',3000000,'E002',2);
+INSERT INTO Employee VALUES('E011','Yuhan','A','Kusuma','16-Mar-1987',
+'BARA','M',2500000,'E002',2);
+INSERT INTO Employee VALUES('E012','Ferdian',null,'Feisal','23-Mar-1987',
+'BATENG','M',2000000,'E002',2);
+INSERT INTO Employee VALUES('E013','Albertus','A','M','22-May-1986',
+'BARA','M',3000000,'E003',3);
+INSERT INTO Employee VALUES('E014','Benedika','F','Hutabarat','21-Jun-1987',
+'BADONENG','M',3250000,'E003',3);
+INSERT INTO Employee VALUES('E015','Herbet',null,'Sianipar','16-Jul-1987',
+'BARA','M',3750000,'E003',3);
